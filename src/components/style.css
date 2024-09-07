@@ -1,11 +1,23 @@
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+    background-color: black; 
+}
+
 .container {
-    background-color: #b0c4de; /* Light blue background */
+    background-color: #b0c4de; 
     border-radius: 20px;
-    padding: 20px;
-    width: 300px;
+    padding: 30px;
+    width: 400px;
+    height: 300px;
     margin: auto;
     text-align: center;
     font-family: Arial, sans-serif;
+    
 }
 
 .question-container {
@@ -15,6 +27,7 @@
 .question-header {
     font-size: 18px;
     margin-bottom: 10px;
+    text-align: end;
 }
 
 .question-text {
@@ -49,7 +62,7 @@
 }
 
 .prev-button, .next-button {
-    background-color: #0000ff; /* Blue button */
+    background-color: #0000ff; 
     color: white;
     border: none;
     padding: 8px 20px;
@@ -59,9 +72,36 @@
 }
 
 .next-button {
-    background-color: #ff00ff; /* Pink button */
+    background-color: #ff00ff; 
 }
 
 .prev-button:hover, .next-button:hover {
     background-color: #333;
 }
+
+.welcome-card{
+   margin-top: 20%;
+}
+
+.welcome-message {
+    margin-bottom: 15px; 
+    font-size: 50px; 
+    color: green; 
+    font-weight: bold;
+}
+
+.welcome-button {
+    background-color: blue; 
+    color: #fff; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    font-size: 14px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.welcome-button:hover {
+    background-color: #ff85c0;
+}
+
